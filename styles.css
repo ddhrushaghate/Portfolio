@@ -1,0 +1,114 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: rgb(20, 19, 17);
+    color: rgb(194, 180, 180);
+    padding: 10px;
+    text-align: center;
+}
+
+header nav a {
+    color: #f4f4f4;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+header nav a:hover {
+    text-decoration: underline;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin: 20px 0;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #000000;
+    color: #fff;
+}
+
+/* Centering the profile image */
+.profile-image-container {
+    display: flex;
+    justify-content: center;  /* Horizontally center the image */
+    align-items: center;      /* Vertically center the image (optional) */
+    margin-top: 20px;         /* Add space between header and image */
+}
+
+.profile-image {
+    width: 600px;  /* Fixed width for rectangular shape */
+    height: 550px; /* Fixed height for rectangular shape */
+    object-fit: cover; /* Ensures the image fills the given dimensions */
+    border-radius: 10px;  /* Optional: Rounded corners */
+}
+
+/* Table styles for other sections */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+th, td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+tbody tr:hover {
+    background-color: #eaeaea;
+}
+
+/* Personal Information Section */
+#personal-information {
+    margin: 20px 0;
+}
+
+#personal-information h2 {
+    color: #333;
+    margin-bottom: 10px;
+}
+
+#personal-information p {
+    margin: 5px 0;
+}
+
+#contact-info {
+    margin: 20px 0;
+}
+
+#contact-info h2 {
+    color: #333;
+    margin-bottom: 10px;
+}
+
+#contact-info p {
+    margin: 5px 0;
+}
+
+#contact-info a {
+    color: #0077b5; /* LinkedIn Blue */
+    text-decoration: none;
+}
+
+#contact-info a:hover {
+    text-decoration: underline;
+}
